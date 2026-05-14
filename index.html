@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Table</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        table {
+            background-color: rgb(221, 255, 0);
+            border-collapse: collapse;
+            width: 700px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden; /* Ensures corners stay rounded */
+        }
+        th, td {
+            padding: 25px;
+            text-align: left;
+            border-bottom: 3px solid #000000;
+        }
+        th {
+            background-color: #0077ff;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .label {
+            font-weight: bold;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Personal Information</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="label">Name</td>
+                <td>Deenesh Balamurali</td>
+            </tr>
+            <tr>
+                <td class="label">Age</td>
+                <td>20 Years Old</td>
+            </tr>
+            <tr>
+                <td class="label">Location</td>
+                <td>Johor Bahru/ Malaysia</td>
+            </tr>
+             <tr>
+                <td class="label">Hobby</td>
+                <td>Johor Playing Video Games and Listening to Musics</td>
+            </tr>
+             <tr>
+                <td class="label">Talent</td>
+                <td>Repairing Laptops/PC and adapting to any work enviroments</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
